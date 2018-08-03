@@ -154,7 +154,6 @@ document.addEventListener('keyup', function (e) {
         39: 'right',
         40: 'down'
     };
-    console.log(counter);
     player.handleInput(allowedKeys[e.keyCode]);
 });
 restart.addEventListener('click', restartGame);
